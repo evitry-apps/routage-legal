@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Assistance — Routage Voile</title>
+<style>
+  :root{ color-scheme: light dark; }
+  *{ box-sizing:border-box; }
+  body{ margin:0; font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+        color:#1a1f24; background:#f5f7f9; }
+  .wrap{ max-width:760px; margin:0 auto; padding:40px 22px 80px; }
+  h1{ font-size:1.7rem; line-height:1.2; margin:0 0 4px; }
+  .sub{ color:#5a6672; margin:0 0 28px; font-size:.95rem; }
+  h2{ font-size:1.15rem; margin:30px 0 8px; }
+  p,li{ color:#2a333c; }
+  ul{ padding-left:1.2em; } li{ margin:5px 0; }
+  a{ color:#0a6bd6; } strong{ color:#12181e; }
+  .card{ background:#fff; border:1px solid #e3e8ee; border-radius:14px; padding:6px 24px 22px; margin-top:18px; }
+  .mail{ display:inline-block; margin-top:6px; font-size:1.05rem; font-weight:600; }
+  footer{ margin-top:40px; color:#7a8592; font-size:.85rem; }
+  @media (prefers-color-scheme: dark){
+    body{ color:#e6ebf0; background:#0f1418; }
+    .sub{ color:#8b97a3; } p,li{ color:#c4ccd4; } strong{ color:#f0f4f8; }
+    a{ color:#4ea1ff; } .card{ background:#161d23; border-color:#232c34; } footer{ color:#6b7681; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Assistance — Routage Voile</h1>
+  <p class="sub">Routage météo par isochrones pour la voile</p>
+
+  <div class="card">
+  <h2>Besoin d'aide ?</h2>
+  <p>Pour toute question, bug ou suggestion concernant l'application <strong>Routage Voile</strong>,
+  écris-nous — nous répondons directement :</p>
+  <p class="mail"><a href="mailto:eloivitry@mac.com?subject=Routage%20Voile%20—%20assistance">eloivitry@mac.com</a></p>
+
+  <h2>Questions fréquentes</h2>
+  <ul>
+    <li><strong>La route semble lente / le vent paraît uniforme ?</strong> Au-delà de l'horizon du
+        modèle météo fin, l'app bascule automatiquement sur un modèle mondial (ECMWF ou GFS). Un
+        message « météo fine +Xh » indique la portée. Utilise « Actualiser météo » pour recharger.</li>
+    <li><strong>Hors réseau à bord ?</strong> Une fois cartes et météo téléchargées, le routage
+        fonctionne hors-ligne (moteur embarqué, légèrement plus prudent que le moteur serveur).</li>
+    <li><strong>Exporter la route ?</strong> Export GPX pour ton GPS de bord et CSV du routier
+        détaillé depuis le panneau de résultat.</li>
+  </ul>
+
+  <h2>Confidentialité</h2>
+  <p>Consulte la <a href="privacy.html">politique de confidentialité</a>. En résumé : aucune publicité,
+  aucun tracking, aucune revente de données.</p>
+  </div>
+
+  <footer>© 2026 Eloi Vitry — Routage Voile</footer>
+</div>
+</body>
+</html>
