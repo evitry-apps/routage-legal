@@ -31,7 +31,7 @@
 <body>
 <div class="wrap">
   <h1>Politique de confidentialité</h1>
-  <p class="sub">Application <strong>Routage Voile</strong> · Dernière mise à jour : 7 septembre 2026</p>
+  <p class="sub">Application <strong>Routage Voile</strong> · Dernière mise à jour : 30 septembre 2026</p>
 
   <div class="card">
   <h2>Qui propose cette app</h2>
@@ -52,9 +52,17 @@
   le moteur serveur).</p>
 
   <p><strong>Données météo.</strong> Pour calculer une route, l'app envoie les coordonnées de ta zone
-  de navigation au service météo public <a href="https://open-meteo.com" rel="noopener">Open-Meteo</a>,
-  qui ne requiert aucun compte et n'est pas affilié à Routage Voile. Ces coordonnées ne sont pas
-  conservées par notre serveur : elles servent au calcul puis sont écartées.</p>
+  de navigation à notre serveur, qui lit les prévisions sur un serveur météo que nous hébergeons
+  nous-mêmes (logiciel libre <a href="https://open-meteo.com" rel="noopener">Open-Meteo</a>, données
+  publiques de Météo-France, ECMWF, NOAA et DWD). Ces coordonnées ne sont transmises à aucun tiers et
+  ne sont pas conservées : elles servent au calcul, restent au plus quelques minutes dans un cache
+  temporaire, puis sont écartées. Nous comptons seulement le nombre de requêtes météo par compte, pour
+  surveiller la charge du service.</p>
+
+  <p><strong>Recherche d'un port par son nom.</strong> Quand tu tapes le nom d'un lieu qui n'est pas
+  dans la liste intégrée à l'app, ce nom est envoyé au service de géocodage
+  d'<a href="https://open-meteo.com" rel="noopener">Open-Meteo</a>, tiers indépendant, pour obtenir ses
+  coordonnées. Seul le texte tapé est envoyé, sans aucun identifiant de compte.</p>
 
   <h2>Ce que nous NE faisons PAS</h2>
   <ul>
