@@ -1,0 +1,9 @@
+{
+ "v": 1,
+ "api": [
+  "https://routage.pacelabcoach.com/api/",
+  "https://eloi-agent.tail3352b7.ts.net/routage/api/"
+ ],
+ "emis": "2026-10-16T18:59:57.939Z",
+ "sig": "7sys6Bhavs3aulfcyoPSbJaZF42LndHxa0LgFj0z-mTa_ldcsjL7V2is_XbMKtRaCNQTz7t1GTtzFYhnLwYujw"
+}
