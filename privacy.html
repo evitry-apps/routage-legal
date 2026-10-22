@@ -31,7 +31,7 @@
 <body>
 <div class="wrap">
   <h1>Politique de confidentialité</h1>
-  <p class="sub">Application <strong>Routage Voile</strong> · Dernière mise à jour : 30 septembre 2026</p>
+  <p class="sub">Application <strong>Routage Voile</strong> · Dernière mise à jour : 22 octobre 2026</p>
 
   <div class="card">
   <h2>Qui propose cette app</h2>
@@ -60,9 +60,17 @@
   surveiller la charge du service.</p>
 
   <p><strong>Recherche d'un port par son nom.</strong> Quand tu tapes le nom d'un lieu qui n'est pas
-  dans la liste intégrée à l'app, ce nom est envoyé au service de géocodage
-  d'<a href="https://open-meteo.com" rel="noopener">Open-Meteo</a>, tiers indépendant, pour obtenir ses
-  coordonnées. Seul le texte tapé est envoyé, sans aucun identifiant de compte.</p>
+  dans la liste intégrée à l'app, ce nom est envoyé à notre serveur, qui le cherche dans une base de
+  noms de lieux que nous hébergeons nous-mêmes (<a href="https://www.geonames.org" rel="noopener">GeoNames</a>).
+  Il n'est transmis à aucun tiers et n'est pas conservé. (Jusqu'à la version 1.4.3, l'app l'envoyait
+  au service de géocodage d'<a href="https://open-meteo.com" rel="noopener">Open-Meteo</a>, tiers
+  indépendant, sans aucun identifiant de compte.)</p>
+
+  <p><strong>Journaux techniques.</strong> Comme tout serveur web, le nôtre note chaque requête :
+  date et heure, adresse IP, adresse appelée (par exemple « /api/meteo ») et résultat. Ces journaux
+  ne contiennent ni coordonnées ni texte de recherche, sauf, exceptionnellement, la ligne d'une
+  requête qui a échoué, conservée pour diagnostiquer la panne. Ils servent uniquement à la sécurité
+  et au dépannage, et sont effacés automatiquement au bout de 14 jours.</p>
 
   <h2>Ce que nous NE faisons PAS</h2>
   <ul>
