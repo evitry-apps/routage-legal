@@ -1,9 +1,10 @@
 {
  "v": 1,
  "api": [
-  "https://routage.pacelabcoach.com/api/",
-  "https://eloi-agent.tail3352b7.ts.net/routage/api/"
+  "https://routage.eloloop.com/api/",
+  "https://eloi-agent.tail3352b7.ts.net/routage/api/",
+  "https://routage.pacelabcoach.com/api/"
  ],
- "emis": "2026-10-16T18:59:57.939Z",
- "sig": "7sys6Bhavs3aulfcyoPSbJaZF42LndHxa0LgFj0z-mTa_ldcsjL7V2is_XbMKtRaCNQTz7t1GTtzFYhnLwYujw"
+ "emis": "2026-11-13T23:14:25.612Z",
+ "sig": "WWtrBx4ActPJM2zeUE27beL4JL9Rq4uJtHlg3pFcN_CHEfekJw14D1SZFZeGjb6NRDCQMuF-By4W5A1voVWgFw"
 }
